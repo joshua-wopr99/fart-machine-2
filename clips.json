@@ -1,0 +1,114 @@
+[
+  {
+    "id": "01-captain-kirk",
+    "label": "Captain Kirk!",
+    "file": "audio/01-captain-kirk.mp3",
+    "duration": 8.1,
+    "bytes": 130028
+  },
+  {
+    "id": "02-german-fart",
+    "label": "German Fart!",
+    "file": "audio/02-german-fart.mp3",
+    "duration": 5.9,
+    "bytes": 94919
+  },
+  {
+    "id": "03-homer-fart",
+    "label": "Homer Fart!",
+    "file": "audio/03-homer-fart.mp3",
+    "duration": 5.9,
+    "bytes": 94919
+  },
+  {
+    "id": "04-low-rider",
+    "label": "Low Rider!",
+    "file": "audio/04-low-rider.mp3",
+    "duration": 2.61,
+    "bytes": 42256
+  },
+  {
+    "id": "05-mumble-fart",
+    "label": "Mumble Fart!",
+    "file": "audio/05-mumble-fart.mp3",
+    "duration": 1.54,
+    "bytes": 25120
+  },
+  {
+    "id": "06-quick-fart",
+    "label": "Quick Fart!",
+    "file": "audio/06-quick-fart.mp3",
+    "duration": 0.44,
+    "bytes": 7566
+  },
+  {
+    "id": "07-ripper-fart",
+    "label": "Ripper Fart!",
+    "file": "audio/07-ripper-fart.mp3",
+    "duration": 7.0,
+    "bytes": 112474
+  },
+  {
+    "id": "08-wet-fart",
+    "label": "Wet Fart!",
+    "file": "audio/08-wet-fart.mp3",
+    "duration": 0.99,
+    "bytes": 16343
+  },
+  {
+    "id": "09-salsa-fart",
+    "label": "Salsa Fart!",
+    "file": "audio/09-salsa-fart.mp3",
+    "duration": 1.31,
+    "bytes": 21358
+  },
+  {
+    "id": "10-the-ripper",
+    "label": "The Ripper!",
+    "file": "audio/10-the-ripper.mp3",
+    "duration": 1.57,
+    "bytes": 25538
+  },
+  {
+    "id": "11-yummy-fart",
+    "label": "Yummy Fart!",
+    "file": "audio/11-yummy-fart.mp3",
+    "duration": 0.57,
+    "bytes": 9656
+  },
+  {
+    "id": "12-tuba-fart",
+    "label": "Tuba Fart!",
+    "file": "audio/12-tuba-fart.mp3",
+    "duration": 1.04,
+    "bytes": 17179
+  },
+  {
+    "id": "13-oops",
+    "label": "Oops!",
+    "file": "audio/13-oops.mp3",
+    "duration": 0.6,
+    "bytes": 10074
+  },
+  {
+    "id": "14-oh-yea-fart",
+    "label": "Oh Yea Fart!",
+    "file": "audio/14-oh-yea-fart.mp3",
+    "duration": 9.8,
+    "bytes": 157195
+  },
+  {
+    "id": "15-bonus",
+    "label": "Bonus!!",
+    "file": "audio/15-bonus.mp3",
+    "duration": 3.27,
+    "bytes": 52705
+  },
+  {
+    "id": "16-squeaky",
+    "label": "Squeaky!",
+    "file": "audio/16-squeaky.mp3",
+    "duration": 3.11,
+    "bytes": 50198
+  }
+]

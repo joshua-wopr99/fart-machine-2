@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0e14">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="The Fart Machine 2.0 — a dark, high-contrast offline soundboard of the 16 original Wavhounds deluxe clips.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Fart Machine">
+  <title>The Fart Machine 2.0</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="chrome">
+    <header class="banner">
+      <p class="kicker">
+        <span class="brand">Wavhounds presents</span>
+        <span class="deluxe">Deluxe</span>
+      </p>
+      <div class="title-row">
+        <h1>The Fart Machine!</h1>
+        <span class="version">v2.0</span>
+      </div>
+      <p class="tagline">
+        <svg class="wave" viewBox="0 0 78 28" aria-hidden="true">
+          <rect x="1" y="10" width="6" height="8" rx="2" fill="#38bdf8"></rect>
+          <rect x="13" y="6" width="6" height="16" rx="2" fill="#fbbf24"></rect>
+          <rect x="25" y="2" width="6" height="24" rx="2" fill="#38bdf8"></rect>
+          <rect x="37" y="6" width="6" height="16" rx="2" fill="#ffffff"></rect>
+          <rect x="49" y="9" width="6" height="10" rx="2" fill="#38bdf8"></rect>
+          <rect x="61" y="11" width="6" height="6" rx="2" fill="#fbbf24"></rect>
+          <rect x="71" y="12" width="6" height="4" rx="2" fill="#38bdf8"></rect>
+        </svg>
+        Sixteen original clips · 1999
+      </p>
+    </header>
+    <div class="controls" role="toolbar" aria-label="Playback">
+      <div class="transport">
+        <button type="button" id="stop" class="ctrl ctrl-stop" aria-pressed="false">STOP</button>
+        <button type="button" id="random" class="ctrl ctrl-random">Random</button>
+        <button type="button" id="overlap" class="ctrl ctrl-overlap" aria-pressed="false">
+          <span>Overlap</span>
+          <span class="pill" id="overlap-pill">OFF</span>
+        </button>
+      </div>
+      <p id="status" class="now" aria-live="polite">Ready</p>
+      <p id="offline-badge" class="badge" hidden>Offline Ready</p>
+    </div>
+  </div>
+
+  <main id="board" class="board" aria-label="Soundboard"></main>
+
+  <footer class="footer">
+    <p><strong>The Fart Machine! v2.0</strong> <span>Deluxe</span></p>
+    <p>Add it to your Home Screen. After Offline Ready appears, every clip plays with no connection.</p>
+  </footer>
+
+  <noscript>
+    <p class="load-error">JavaScript is required to play the soundboard.</p>
+  </noscript>
+  <script src="./app.js"></script>
+</body>
+</html>
